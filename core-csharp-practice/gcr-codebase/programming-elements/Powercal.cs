@@ -2,11 +2,8 @@ using System;
 public class Powercal {
     public static void Main(String[] args) {
         int num = 4;
-		int powvalue = 2;
-		int ans = 1;
-        for(int i = 0;i<powvalue;i++){
-             ans *= num;
-        }
+		int exponent = 2;
+		double ans = Math.Pow(num,exponent);
 
         Console.WriteLine(ans);
     }
