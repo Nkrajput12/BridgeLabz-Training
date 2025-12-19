@@ -20,4 +20,4 @@ c# Architecture about CLR ,compilers in .NEt Data types in c# (Primitive and Non
 
 💻 C# Problem Solving
 
-write a code using 'is' operator and code on Type Casting.
+write a code using 'is' operator and code on Type Casting. .>solve 16 problems in level1 inside the c# programming elements
