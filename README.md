@@ -4,7 +4,7 @@
 🧠 Technical Concepts
 >learning about Git
 >create Repo and branch
-
+------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 18 December 2025
 🧠 Technical Concepts
 >SDK (Software Development Kit): A bundle of tools (CLI, libraries, runtime) required to develop applications for a specific platform.
@@ -15,3 +15,18 @@
 💻 C# Problem Solving
 >Today I completed 10 logic problems covering:
 >push 5 leetcode question,
+
+------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 19 December 2025
+
+🧠 Technical Concepts
+> c# Architecture
+> about CLR ,compilers in .NEt
+> Data types in c# (Primitive and Non-primitive : int(4byte), Float(4byte), char(16byte), double(8byte), Long/Int64(8byte))
+> Static keyword in c#
+> operators in c# (Arthemetic, Assignment, Relational, is, unary, ternary, Logical, Bitwise)
+
+💻 C# Problem Solving
+>write a code using 'is' operator and code on Type Casting.
+
