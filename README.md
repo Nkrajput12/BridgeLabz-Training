@@ -21,3 +21,27 @@ c# Architecture about CLR ,compilers in .NEt Data types in c# (Primitive and Non
 💻 C# Problem Solving
 
 write a code using 'is' operator and code on Type Casting. .>solve 16 problems in level1 inside the c# programming elements
+.>solve 12 problems in level2 inside the c# programming elements
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 20 December 2025
+
+🧠 Technical Concepts
+.> Access Modifier in c# (private, public, internal, protected, private protected, protected internal)
+.> Memory in c# (Stack, Heap)
+
+💻 C# Problem Solving
+.> Solving the questions on Access Modifier and push it to git 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 21 December 2025 (Sunday)
+
+🧠 Technical Concepts
+Revise the c# concept 
+
+💻 C# Problem Solving
+.> Solving the LeetCode question no 9 "Palindrome"
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
