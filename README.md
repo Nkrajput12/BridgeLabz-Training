@@ -26,7 +26,6 @@
 .> Data types in c# (Primitive and Non-primitive : int(4byte), Float(4byte), char(16byte), double(8byte), Long/Int64(8byte))
 .> Static keyword in c#
 .> operators in c# (Arthemetic, Assignment, Relational, is, unary, ternary, Logical, Bitwise)
-.> Memory in c# (Stack, Heap)
 .> Access Modifier in c#
 
 💻 C# Problem Solving
@@ -34,3 +33,25 @@
 .>solve 16 problems in level1 inside the c# programming elements
 .>solve 12 problems in level2 inside the c# programming elements
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 20 December 2025
+
+🧠 Technical Concepts
+.> Access Modifier in c# (private, public, internal, protected, private protected, protected internal)
+.> Memory in c# (Stack, Heap)
+
+💻 C# Problem Solving
+.> Solving the questions on Access Modifier and push it to git 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 21 December 2025 (Sunday)
+
+🧠 Technical Concepts
+Revise the c# concept 
+
+💻 C# Problem Solving
+.> Solving the LeetCode question no 9 "Palindrome"
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
