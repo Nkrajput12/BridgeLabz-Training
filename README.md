@@ -55,3 +55,17 @@ Revise the c# concept
 .> Solving the LeetCode question no 9 "Palindrome"
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 22 December 2025
+🧠 Technical Concepts
+ .>Control flow
+ .> loops(for, while, do-while and for each loop)
+ .>if,else and else-if
+ .>switch case
+
+💻 C# Problem Solving
+.>solve questions based on control flow in csharp-control-flow 
+ 18 level1 problems, 12 level2 problems and 6 level3 problems and push to git.
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
