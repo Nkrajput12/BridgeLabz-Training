@@ -67,5 +67,14 @@ Revise the c# concept
  18 level1 problems, 12 level2 problems and 6 level3 problems and push to git.
 
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 23 December 2025
+🧠 Technical Concepts
+.>C# Arrays (intiallization of array ,modification)
+.>One-Dimensional Array
+.>Two – Dimensional Array (2D-Array)
+.>Environment.Exit() Method  (This is use to terminate the current program)
 
+💻 C# Problem Solving
+.>Solve 10 problems on array and push to level1 of csharp-arrays
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
