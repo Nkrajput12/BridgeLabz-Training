@@ -78,3 +78,65 @@ Revise the c# concept
 .>Solve 10 problems on array and push to level1 of csharp-arrays
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 24 December 2025
+🧠 Technical Concepts
+.>1. User-Defined Methods
+.>2 Using Methods Multiple Times
+.>3 Making Methods More Dynamic
+.>4. Recursive Methods
+.>5. Static Methods in C#
+.>6. .NET Standard Library Methods
+.>7. System.Math Class in C#
+
+💻 C# Problem Solving
+.>solve 10 problems on array and push to level2 of csharp-arrays
+.>solve 12 problems on methods in level1 of csharp-methods.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 25 December 2025 (Holiday)
+🧠 Technical Concepts
+.>Revise all the concepts
+
+💻 C# Problem Solving
+.>solve 12 question methods and push to level2 of csharp-methods.
+.>solve 13 question on methods and push to level3 of csharp-methods.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 26 December 2025
+🧠 Technical Concepts
+1. C# Strings,
+2. Create Strings,
+3. Use of "\\" Escape Sequence,
+4. Take String Input,
+5. String Arrays,
+6. String as Method Parameters,
+7. String Class Built-In Methods,
+8. ASCII Character Codes,
+9. C# Exceptions,
+10. C# Exception Hierarchy,
+11. C# Exception Types,
+12. System.Exception or Unchecked Exceptions,
+13. Checked Exceptions.
+
+💻 C# Problem Solving
+.>solve scenario based question Named Snake and Ladder
+.>solve 11 questions on string in csharp-strings
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 27 December 2025 (Holiday)
+🧠 Technical Concepts
+revise concept about strings 
+
+💻 C# Problem Solving
+.>solve 12 questions on string in extra-csharp-strings.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 28 December 2025 (Holiday)
+🧠 Technical Concepts
+revise all previous concepts
+
+💻 C# Problem Solving
+.>solve 13 problems in extra-csharp-built-in
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
