@@ -53,7 +53,7 @@ class SnakeNLadder
     }
 
     
-
+    //main method
     public static void Main(string[] args)
     {
         //taking input 
@@ -65,9 +65,18 @@ class SnakeNLadder
             Environment.Exit(0);
         }
 
+        GameStart(numplayer);
+    }
+
+
+
+
+    //mehthod for Game start
+    public static void GameStart(int numplayer)
+    {
         //intializing string for name input
         string[] name = new string[numplayer];
-        for(int i = 0; i < numplayer; i++)
+        for (int i = 0; i < numplayer; i++)
         {
             Console.WriteLine("Enter name of player " + (i + 1));
             name[i] = Console.ReadLine();
@@ -99,11 +108,11 @@ class SnakeNLadder
         int chance = 0;
 
 
-        while (true) 
+        while (true)
         {
             Console.WriteLine(name[chance] + " press 1 to roll the dice ");
             int n = Convert.ToInt32(Console.ReadLine());
-            if(n == 1)
+            if (n == 1)
             {
                 int roll = RandomDice();
                 Console.WriteLine("roll = " + roll);
@@ -118,12 +127,12 @@ class SnakeNLadder
 
                 Console.WriteLine(old + " -----> " + new1);
 
-                
-                
+
+
                 Console.WriteLine(name[chance] + "'s score = " + score[chance]);
 
-                    
-                
+
+
 
                 for (int i = 0; i < score.Length; i++)
                 {
@@ -150,9 +159,6 @@ class SnakeNLadder
                 Console.WriteLine("please press 1 ");
             }
         }
-
-
-
     }
 }
 
