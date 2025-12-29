@@ -107,18 +107,23 @@ class SnakeNLadder
             {
                 int roll = RandomDice();
                 Console.WriteLine("roll = " + roll);
+                int old = score[chance];
                 score = Move(chance, roll, score);
 
                 score = CheckSnake(snake, score, chance);
 
                 score = CheckLadder(ladder, score, chance);
 
-                for(int i = 0; i < score.Length; i++)
-                {
-                    Console.WriteLine(name[i] + "'s score = " + score[i]);
+                int new1 = score[chance];
+
+                Console.WriteLine(old + " -----> " + new1);
+
+                
+                
+                Console.WriteLine(name[chance] + "'s score = " + score[chance]);
 
                     
-                }
+                
 
                 for (int i = 0; i < score.Length; i++)
                 {
