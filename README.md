@@ -2,104 +2,106 @@
 
 📅 Date: 17 December 2025
 🧠 Technical Concepts
-.>learning about Git
-.>create Repo and branch
+1. learning about Git
+2. create Repo and branch
 ------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 18 December 2025
 🧠 Technical Concepts
-.>SDK (Software Development Kit): A bundle of tools (CLI, libraries, runtime) required to develop applications for a specific platform.
-.>Foundations of .NET: A cross-platform framework consisting of the CLR (Runtime) for execution and the BCL (Base Class Library) for standard functions.
-.>Java vs. C#: Both are OOP-based. Java runs on the JVM, while C# runs on the CLR. C# generally has faster feature iteration (e.g., LINQ, Async).
-.>Compiler vs. Interpreter: A compiler translates the whole code at once (faster execution), while an interpreter translates it line-by-line (easier debugging).
+1. SDK (Software Development Kit): A bundle of tools (CLI, libraries, runtime) required to develop applications for a specific platform.
+2. Foundations of .NET: A cross-platform framework consisting of the CLR (Runtime) for execution and the BCL (Base Class Library) for standard functions.
+3. Java vs. C#: Both are OOP-based. Java runs on the JVM, while C# runs on the CLR. C# generally has faster feature iteration (e.g., LINQ, Async).
+4. Compiler vs. Interpreter: A compiler translates the whole code at once (faster execution), while an interpreter translates it line-by-line (easier debugging).
 
 💻 C# Problem Solving
-.>Today I completed 10 logic problems covering:
-.>push 5 leetcode question,
+1. Today I completed 10 logic problems covering:
+2. push 5 leetcode question,
 
 ------------------------------------------------------------------------------------------------------------------------------
 
 📅 Date: 19 December 2025
 
 🧠 Technical Concepts
-.> c# Architecture
-.> about CLR ,compilers in .NEt
-.> Data types in c# (Primitive and Non-primitive : int(4byte), Float(4byte), char(16byte), double(8byte), Long/Int64(8byte))
-.> Static keyword in c#
-.> operators in c# (Arthemetic, Assignment, Relational, is, unary, ternary, Logical, Bitwise)
-.> Access Modifier in c#
+1. c# Architecture
+2. about CLR ,compilers in .NEt
+3. Data types in c# (Primitive and Non-primitive : int(4byte), Float(4byte), char(16byte), double(8byte), Long/Int64(8byte))
+4. Static keyword in c#
+5. operators in c# (Arthemetic, Assignment, Relational, is, unary, ternary, Logical, Bitwise)
+6. Access Modifier in c#
 
 💻 C# Problem Solving
-.>write a code using 'is' operator and code on Type Casting.
-.>solve 16 problems in level1 inside the c# programming elements
-.>solve 12 problems in level2 inside the c# programming elements
+1. write a code using 'is' operator and code on Type Casting.
+2. solve 16 problems in level1 inside the c# programming elements
+3. solve 12 problems in level2 inside the c# programming elements
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📅 Date: 20 December 2025
 
 🧠 Technical Concepts
-.> Access Modifier in c# (private, public, internal, protected, private protected, protected internal)
-.> Memory in c# (Stack, Heap)
+1. Access Modifier in c# (private, public, internal, protected, private protected, protected internal)
+2. Memory in c# (Stack, Heap)
 
 💻 C# Problem Solving
-.> Solving the questions on Access Modifier and push it to git 
+1. Solving the questions on Access Modifier and push it to git 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📅 Date: 21 December 2025 (Sunday)
 
 🧠 Technical Concepts
-Revise the c# concept 
+1. Revise the c# concept 
 
 💻 C# Problem Solving
-.> Solving the LeetCode question no 9 "Palindrome"
+1. Solving the LeetCode question no 9 "Palindrome"
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 22 December 2025
 🧠 Technical Concepts
- .>Control flow
- .> loops(for, while, do-while and for each loop)
- .>if,else and else-if
- .>switch case
+ 1. Control flow
+ 2. loops(for, while, do-while and for each loop)
+ 3. if,else and else-if
+ 4. switch case
 
 💻 C# Problem Solving
-.>solve questions based on control flow in csharp-control-flow 
- 18 level1 problems, 12 level2 problems and 6 level3 problems and push to git.
+1. solve questions based on control flow in csharp-control-flow 
+2. 18 level1 problems,
+3.  12 level2 problems 
+4.  6 level3 problems and push to git.
 
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 23 December 2025
 🧠 Technical Concepts
-.>C# Arrays (intiallization of array ,modification)
-.>One-Dimensional Array
-.>Two – Dimensional Array (2D-Array)
-.>Environment.Exit() Method  (This is use to terminate the current program)
+1. C# Arrays (intiallization of array ,modification)
+2. One-Dimensional Array
+3. Two – Dimensional Array (2D-Array)
+4. Environment.Exit() Method  (This is use to terminate the current program)
 
 💻 C# Problem Solving
-.>Solve 10 problems on array and push to level1 of csharp-arrays
+1. Solve 10 problems on array and push to level1 of csharp-arrays
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 24 December 2025
 🧠 Technical Concepts
-.>1. User-Defined Methods
-.>2 Using Methods Multiple Times
-.>3 Making Methods More Dynamic
-.>4. Recursive Methods
-.>5. Static Methods in C#
-.>6. .NET Standard Library Methods
-.>7. System.Math Class in C#
+1. User-Defined Methods
+2. Using Methods Multiple Times
+3. Making Methods More Dynamic
+4. Recursive Methods
+5. Static Methods in C#
+6. .NET Standard Library Methods
+7. System.Math Class in C#
 
 💻 C# Problem Solving
-.>solve 10 problems on array and push to level2 of csharp-arrays
-.>solve 12 problems on methods in level1 of csharp-methods.
+1. solve 10 problems on array and push to level2 of csharp-arrays
+2. solve 12 problems on methods in level1 of csharp-methods.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 25 December 2025 (Holiday)
 🧠 Technical Concepts
-.>Revise all the concepts
+1. Revise all the concepts
 
 💻 C# Problem Solving
-.>solve 12 question methods and push to level2 of csharp-methods.
-.>solve 13 question on methods and push to level3 of csharp-methods.
+1. solve 12 question methods and push to level2 of csharp-methods.
+2. solve 13 question on methods and push to level3 of csharp-methods.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 26 December 2025
@@ -119,16 +121,16 @@ Revise the c# concept
 13. Checked Exceptions.
 
 💻 C# Problem Solving
-.>solve scenario based question Named Snake and Ladder
-.>solve 11 questions on string in csharp-strings
+1. solve scenario based question Named Snake and Ladder
+2. solve 11 questions on string in csharp-strings
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 27 December 2025 (Holiday)
 🧠 Technical Concepts
-revise concept about strings 
+1. revise concept about strings 
 
 💻 C# Problem Solving
-.>solve 12 questions on string in extra-csharp-strings.
+1. solve 12 questions on string in extra-csharp-strings.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 28 December 2025 (Holiday)
@@ -136,7 +138,7 @@ revise concept about strings
 revise all previous concepts
 
 💻 C# Problem Solving
-.>solve 13 problems in extra-csharp-built-in
+1. solve 13 problems in extra-csharp-built-in
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 29 December 2025
@@ -159,7 +161,8 @@ revise all previous concepts
 3. Access Modifiers Concepts
 
 💻 C# Problem Solving
-  solve 3 scenario bases question 
+  solve 4 scenario bases question 
 1.  student test score
 2.  library management system
 3.  temperature analyzer
+4.  Edu Quiz
