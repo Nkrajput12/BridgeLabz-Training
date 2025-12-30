@@ -139,4 +139,27 @@ revise all previous concepts
 .>solve 13 problems in extra-csharp-built-in
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 29 December 2025
+🧠 Technical Concepts
+1. Procedural vs Object-oriented Programming Language
+2. class
+3. object
+4. Intro to the pillers of oops
 
+💻 C# Problem Solving
+ solve 2 scenario based questions 
+ 1. paragraph analyzer
+ 2. sentence formatter
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 30 December 2025
+🧠 Technical Concepts
+1. C# Constructors
+2. Instance vs. Class Variables
+3. Access Modifiers Concepts
+
+💻 C# Problem Solving
+  solve 3 scenario bases question 
+1.  student test score
+2.  library management system
+3.  temperature analyzer
