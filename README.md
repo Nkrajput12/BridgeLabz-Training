@@ -166,3 +166,20 @@ revise all previous concepts
 2.  library management system
 3.  temperature analyzer
 4.  Edu Quiz
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 30 December 2025
+🧠 Technical Concepts
+1. this
+2. static
+3. sealed 
+4.  is operator
+  
+💻 C# Problem Solving
+ solve 2 scenario base and 3 class and object question (oops-csharp-practice)
+1. Book.cs
+2. Circle.cs
+3. Employee.cs
+4. Bank-Account problem
+5. probliem on Math operation 
+   
