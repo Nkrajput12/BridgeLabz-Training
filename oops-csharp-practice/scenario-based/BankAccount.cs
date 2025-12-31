@@ -2,22 +2,23 @@
 
 class BankAccount
 {
-    public long balance = 50540; //setting the intial amount
-    public string accountNumber = "RBI0001"; //acount number
-    public string pass = "1234";
+    //Private fields (Encapsulation)
+    private long balance = 50540; //setting the intial amount
+    protected string accountNumber = "RBI0001"; //acount number
+    private string pass = "1234";
 
 
     //method for deposite the amount to the balance
-    public void Deposite()
+    public void Deposit()
     {
         Console.WriteLine("Enter Password: ");
         string p = Console.ReadLine();
-        if(p == pass)
+        if(p == pass) //Only proceed if password is correct
         {
             Console.WriteLine("Enter the amount you want to deposite ");
-            long amount = Convert.ToInt64(Console.ReadLine());
+            long amount = Convert.ToInt64(Console.ReadLine()); //user input for enter amount
 
-            if (amount <= 0)
+            if (amount <= 0) //check if amount is less than zero
             {
                 Console.WriteLine("Enter the valid amount");
             }
@@ -39,12 +40,12 @@ class BankAccount
     {
         Console.WriteLine("Enter Password: ");
         string p = Console.ReadLine();
-        if(p == pass)
+        if(p == pass) //Only proceed if password is correct
         {
             Console.WriteLine("Enter the amount you want to withdraw ");
-            long amount = Convert.ToInt64(Console.ReadLine());
+            long amount = Convert.ToInt64(Console.ReadLine()); //user input for amount to withdraw
 
-            if (balance < amount)
+            if (balance < amount) //check the  balance is less than amount or not
             {
                 Console.WriteLine("Low balance");
             }
@@ -61,13 +62,13 @@ class BankAccount
     }
     
     //method to check balance
-    public void CheckBalance()
+    public void CheckBalance() 
     {
         Console.WriteLine("Enter Password: ");
         string p = Console.ReadLine();
-        if(p == pass)
+        if(p == pass)//Only proceed if password is correct
         {
-            Console.WriteLine("Balance = " + balance);
+            Console.WriteLine("Balance = " + balance); //show balance
         }
         else
         {
@@ -77,10 +78,10 @@ class BankAccount
     }
 
     //method for display
-    public void Display()
+    protected void Display()
     {
         Console.WriteLine("-----------------------Welocome to XYZ Bank---------------------------");
-        while (true)
+        while (true) //loop run until user press for exit
         {
             Console.WriteLine("press 1 to check balance:");
             Console.WriteLine("press 2 to deposite amount :");
@@ -91,22 +92,22 @@ class BankAccount
             switch (choice)
             {
                 case 1: 
-                    CheckBalance(); 
+                    CheckBalance();  // method for check balance
                     break;
 
                 case 2:
-                    Deposite();
+                    Deposit(); //method for deposite amount
                     break;
                 
                 case 3:
-                    Withdraw();
+                    Withdraw(); //mehtod for withdraw the amount
                     break;
 
                 case 4:
-                    Environment.Exit(0);
+                    Environment.Exit(0); //terminatte the code successfully
                     break;
                 default:
-                    Console.WriteLine("Invalid choice");
+                    Console.WriteLine("Invalid choice"); //promt for invalid choice
                     break;
             }
 
@@ -114,17 +115,17 @@ class BankAccount
         }
     }
 }
-class App
+class App : BankAccount //app class inherit the bankaccount class
 {
     public static void Main(String[] args)
     {
-        BankAccount account = new BankAccount();
+        App account = new App(); // calling method
 
         Console.WriteLine("Please enter your account number ");
-        string ACnumber = Console.ReadLine();
-        if (account.accountNumber == ACnumber)
+        string ACnumber = Console.ReadLine(); // user entered account number
+        if (account.accountNumber == ACnumber) //check if account number is correct or not
         {
-            account.Display();
+            account.Display(); // call display method in bankaccount class
         }
         else
         {
