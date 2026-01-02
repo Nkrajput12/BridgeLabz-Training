@@ -183,3 +183,33 @@ revise all previous concepts
 4. Bank-Account problem
 5. probliem on Math operation 
    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 1 Jan 2025
+🧠 Technical Concepts
+1. Classes vs. Objects in C#
+2. Class Diagram
+3. Object Diagrams
+4. Sequence Diagrams
+
+💻 C# Problem Solving  scenario based
+1. Free Lancer problem
+2. Cafeteria Menu problem  //both question using oops question
+   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 2 Jan 2025
+🧠 Technical Concepts
+1. Inheritance
+2. Single Level Inheritance
+3. Multilevel Inheritance
+4. Hierarchical Inheritance
+5. Key Features of Inheritance
+6. Method Overriding
+7. Constructor Inheritance in C#
+8. Polymorphism and Inheritance
+9. Access Modifiers and Inheritance
+    
+💻 C# Problem Solving  scenario based  
+1. Distance Tracker using oops concept
+2. 
+   
+   
