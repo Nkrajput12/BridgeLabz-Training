@@ -30,9 +30,9 @@ namespace EmployeeWage.EmployeeWage
             return Id;
         }
 
-        private double DailyWage = 800;
-
-        private double HourlyWage = 100;
+        public double HourlyWage = 100;
+        public int FullDayHour = 8;
+        public double DailyWage = 0;
 
 
         public override string ToString()

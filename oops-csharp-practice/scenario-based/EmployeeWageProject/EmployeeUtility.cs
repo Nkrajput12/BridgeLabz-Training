@@ -49,7 +49,32 @@ namespace EmployeeWage.EmployeeWage
                 else Console.WriteLine(employee[i].GetName() + " is Absent");
             }
         }
-
-
+        
+        public void CalculateDailyWage()
+        {
+            if(countEmployee == 0)
+            {
+                Console.WriteLine("please add employee first");
+            }
+            else
+            {
+                for(int i = 0; i < countEmployee; i++)
+                {
+                    Employee emp = new Employee();
+                    Random rand = new Random();
+                    int present = rand.Next(0, 2);
+                    if (present == 1)
+                    {
+                        emp.DailyWage = emp.FullDayHour * emp.HourlyWage;
+                        Console.WriteLine(emp.GetName()+" is present , Daily wage = "+emp.DailyWage);
+                    }
+                    else
+                    {
+                        emp.DailyWage = 0;
+                        Console.WriteLine(emp.GetName() + " is Absent , Daily wage = " + emp.DailyWage);
+                    }
+                }
+            }
+        }
     }
 }
