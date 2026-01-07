@@ -20,7 +20,7 @@ namespace EmployeeWage.EmployeeWage
                 Console.WriteLine("press 2 to Check Attendance");
                 Console.WriteLine("press 3 to calculate and show daily wage");
                 Console.WriteLine("press 4 to calculate and show monthly wage");
-                Console.WriteLine("press 4 to exit");
+                Console.WriteLine("press 5 to exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {

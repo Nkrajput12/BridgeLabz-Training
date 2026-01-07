@@ -88,30 +88,33 @@ namespace EmployeeWage.EmployeeWage
 
 
         //method to calculate the monthly wages
+        // Method for Month (UC 6 Logic) check for condition
         public void CalculateMonthlyWage()
         {
             Random random = new Random();
-            int workingDays = 20;
-
             for (int i = 0; i < countEmployee; i++)
             {
                 Employee emp = employee[i];
-                double totalMonthlyWage = 0;
+                int totalHours = 0;
+                int totalDays = 0;
 
-                for (int day = 1; day <= workingDays; day++)
+                while (totalDays < 20 && totalHours < 100)
                 {
+                    totalDays++;
                     int check = random.Next(0, 3);
-                    int hours = 0;
+                    int dailyHours = 0;
 
                     switch (check)
                     {
-                        case 1: hours = emp.PartTimeHour; break;
-                        case 2: hours = emp.FullDayHour; break;
-                        default: hours = 0; break;
+                        case 1: dailyHours = emp.PartTimeHour; break;
+                        case 2: dailyHours = emp.FullDayHour; break;
+                        default: dailyHours = 0; break;
                     }
-                    totalMonthlyWage += (hours * emp.HourlyWage);
+
+                    if (totalHours + dailyHours > 100) dailyHours = 100 - totalHours;
+                    totalHours += dailyHours;
                 }
-                Console.WriteLine($"Name: {emp.GetName()} | Total Monthly Wage (20 Days): {totalMonthlyWage}");
+                Console.WriteLine($"Name: {emp.GetName()} | Days: {totalDays} | Hours: {totalHours} | Total Wage: {totalHours * emp.HourlyWage}");
             }
         }
 
