@@ -7,7 +7,7 @@ using EmployeeWage.EmployeeWage;
 
 namespace EmployeeWage.EmployeeWage
 {
-    internal class EmployeeUtility : IEmployee 
+    internal class EmployeeUtility : IEmployee
     {
         private Employee[] employee = new Employee[10];
         int countEmployee = 0;
@@ -85,6 +85,38 @@ namespace EmployeeWage.EmployeeWage
                 Console.WriteLine($"Name: {emp.GetName()} | Status: {status} | Wage: {DailyWage}");
             }
         }
+
+
+        //method to calculate the monthly wages
+        public void CalculateMonthlyWage()
+        {
+            Random random = new Random();
+            int workingDays = 20;
+
+            for (int i = 0; i < countEmployee; i++)
+            {
+                Employee emp = employee[i];
+                double totalMonthlyWage = 0;
+
+                for (int day = 1; day <= workingDays; day++)
+                {
+                    int check = random.Next(0, 3);
+                    int hours = 0;
+
+                    switch (check)
+                    {
+                        case 1: hours = emp.PartTimeHour; break;
+                        case 2: hours = emp.FullDayHour; break;
+                        default: hours = 0; break;
+                    }
+                    totalMonthlyWage += (hours * emp.HourlyWage);
+                }
+                Console.WriteLine($"Name: {emp.GetName()} | Total Monthly Wage (20 Days): {totalMonthlyWage}");
+            }
+        }
+
+
+
     }
 }
 
