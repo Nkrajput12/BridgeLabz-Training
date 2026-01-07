@@ -49,32 +49,45 @@ namespace EmployeeWage.EmployeeWage
                 else Console.WriteLine(employee[i].GetName() + " is Absent");
             }
         }
-        
-        public void CalculateDailyWage()
+
+        public void ShowDailyWages()
         {
-            if(countEmployee == 0)
+            Random random = new Random();
+
+            for (int i = 0; i < countEmployee; i++)
             {
-                Console.WriteLine("please add employee first");
-            }
-            else
-            {
-                for(int i = 0; i < countEmployee; i++)
+                Employee emp = employee[i];
+                int check = random.Next(0, 3); // 0 = Absent, 1 = Part-Time, 2 = Full-Time
+
+                int workingHours = 0;
+                string status = "";
+
+                // UC 4: Switch Case logic directly inside the loop
+                switch (check)
                 {
-                    Employee emp = new Employee();
-                    Random rand = new Random();
-                    int present = rand.Next(0, 2);
-                    if (present == 1)
-                    {
-                        emp.DailyWage = emp.FullDayHour * emp.HourlyWage;
-                        Console.WriteLine(emp.GetName()+" is present , Daily wage = "+emp.DailyWage);
-                    }
-                    else
-                    {
-                        emp.DailyWage = 0;
-                        Console.WriteLine(emp.GetName() + " is Absent , Daily wage = " + emp.DailyWage);
-                    }
+                    case 1:
+                        workingHours = emp.PartTimeHour;
+                        status = "Part-Time";
+                        break;
+                    case 2:
+                        workingHours = emp.FullDayHour;
+                        status = "Full-Time";
+                        break;
+                    default:
+                        workingHours = 0;
+                        status = "Absent";
+                        break;
                 }
+
+                // Calculation: $DailyWage = Hours \times Rate$
+                double DailyWage = workingHours * emp.HourlyWage;
+
+                Console.WriteLine($"Name: {emp.GetName()} | Status: {status} | Wage: {DailyWage}");
             }
         }
     }
 }
+
+
+    
+

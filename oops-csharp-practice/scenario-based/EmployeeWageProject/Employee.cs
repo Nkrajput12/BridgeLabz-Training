@@ -33,6 +33,7 @@ namespace EmployeeWage.EmployeeWage
         public double HourlyWage = 100;
         public int FullDayHour = 8;
         public double DailyWage = 0;
+        public int PartTimeHour = 8;
 
 
         public override string ToString()

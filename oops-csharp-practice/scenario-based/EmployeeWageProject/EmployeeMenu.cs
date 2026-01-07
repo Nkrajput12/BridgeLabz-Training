@@ -18,7 +18,7 @@ namespace EmployeeWage.EmployeeWage
             {
                 Console.WriteLine("press 1 to add Emp");
                 Console.WriteLine("press 2 to Check Attendance");
-                Console.WriteLine("press 3 to calculate Dailywage of the employees");
+                Console.WriteLine("press 3 to calculate and show daily wage");
                 Console.WriteLine("press 4 to exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -31,7 +31,7 @@ namespace EmployeeWage.EmployeeWage
                         utility.CheckAttendance();
                         break;
                     case 3:
-                        utility.CalculateDailyWage();
+                        utility.ShowDailyWages();
                         break;
                     case 4:
                         exit = true;
