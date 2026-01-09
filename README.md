@@ -210,6 +210,89 @@ revise all previous concepts
     
 💻 C# Problem Solving  scenario based  
 1. Distance Tracker using oops concept
-2. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 3 Jan 2025
+   🧠 Technical Concepts
+   1. Inheritance
+   2. abstraction 
+   3. polymorphism
+   4. encapsulation
    
+   💻 C# Problem Solving
+   Scenario based
+   Lucky Draw
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 4 Jan 2025 (Sunday)
+   🧠 Technical Concepts
+   1. Revise all the topics of oops 
+
+   💻 C# Problem Solving
+   1. problems on Keywords and constructor
+   2. 3 problems based on inheritance
+   3. oops diagram
+   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 5 Jan 2025 (taking leave due to cold and fever)
+    🧠 Technical Concepts
+   1. Encapsulation
+   2.  Polymorphism 
+   3.  Interface
+   4.  Abstract Classes
+  
+    💻 C# Problem Solving
+    N/A
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 6 Jan 2025
+    
+  1. Revise all the oops pillers
+  2. learn about base , virtual and override keyword
+  3. learn the previous day concept
+  
+  💻 C# Problem Solving
+   scenario based using oops concept
+   1. vehical Rental application
+   2. Bird santuary
+   3. call log manager
+  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 7 Jan 2025
+  🧠 Technical Concepts
+  1. Single Linked List
+  2. Double Linked List
+  3. Circular Linked List
+
+  💻 C# Problem Solving
+  1. 2 scenario base problem
+  2. Employee Wage progect (UC1 - UC6)
+  3. Ecommerce platform 
+   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 8 Jan 2025
+  🧠 Technical Concepts
+  1. Stack
+  2. Queue
+  3. HashMap and Hashing Function
+
+  💻 C# Problem Solving
+  1. 3 Scenario based on oops
+  2. 4 problem based on Linked list
+   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 9 Jan 2025
+  🧠 Technical Concepts
+  1. sorting alogoriths
+  2. Bubble Sort
+  3. insertion sort
+  4. Merge sort
+  5. Quick sort
+
+  💻 C# Problem Solving
+  
+
+
+   
+
    
