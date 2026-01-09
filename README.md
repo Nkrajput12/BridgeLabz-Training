@@ -290,6 +290,8 @@ revise all previous concepts
   5. Quick sort
 
   💻 C# Problem Solving
+  1. 1 Scenario base problem on oops "Fitness Tracker"
+  2. 1 Scenario base problem on DSA "ATM Dispenser"
   
 
 
