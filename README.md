@@ -292,9 +292,54 @@ revise all previous concepts
   💻 C# Problem Solving
   1. 1 Scenario base problem on oops "Fitness Tracker"
   2. 1 Scenario base problem on DSA "ATM Dispenser"
-  
+  3. Solve 8 problems based Stack,Queue and HashMap
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 10 Jan 2025
+  🧠 Technical Concepts
+  Revise the concepts of oops
 
+  💻 C# Problem Solving
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 11 Jan 2025
+  🧠 Technical Concepts
+   Revise Concept of core java and oops
+
+   💻 C# Problem Solving
+  1. Bubble sort problem
+  2. Counting sort problem
+  3. Insertion sort problem
+  4. Merge sort problem
+  5. Quick sort problem
+  6. Selection sort problem
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 12 Jan 2025
+  🧠 Technical Concepts
+ 1. StringBuilder
+ 2. StringBuffer
+ 3. FileReader
+ 4. InputStreamReader
+ 5. Linear Search 
+ 6. Binary Search
    
+  💻 C# Problem Solving
+    3 Scenario base problem
+  1. Metal Rod cutting
+  2. Fuurniture Manufacturing
+  3. Loan Approval Automation
 
-   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 13 Jan 2025
+  🧠 Technical Concepts
+1. What is Runtime Analysis?
+2. Understanding Big-O Notation
+3. Time Complexity Analysis
+4. Space Complexity Analysis
+5. Best, Worst, and Average Case Complexities
+6. Practical Guidelines for Optimizing C# Code
+
+💻 C# Problem Solving
+1. 2 Scenario base problems
+2. problem base on linear search binary search and String builder
