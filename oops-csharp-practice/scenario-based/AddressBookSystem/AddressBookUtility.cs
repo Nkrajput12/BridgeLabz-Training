@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace BridgeLabzTraining.AddressBookSystem
 {
@@ -19,11 +20,24 @@ namespace BridgeLabzTraining.AddressBookSystem
             }
             else
             {
-                Contacts person = new Contacts();
+                
                 Console.Write("Enter First Name: ");
-                person.FirstName = Console.ReadLine();
+                string fName = Console.ReadLine();
                 Console.Write("Enter Last Name: ");
-                person.LastName = Console.ReadLine();
+                string lName = Console.ReadLine();
+
+                Contacts person = new Contacts { FirstName = fName, LastName = lName };
+
+                //  Use the Equals method to check the array
+                for (int i = 0; i < contactCount; i++)
+                {
+                    if (contact[i].Equals(person))
+                    {
+                        Console.WriteLine("\n--- Error: This person already exists in this Address Book! ---");
+                        return;
+                    }
+                }
+                
                 Console.Write("Enter Email: ");
                 person.Email = Console.ReadLine();
                 Console.Write("Enter Phone Number: ");
@@ -36,7 +50,7 @@ namespace BridgeLabzTraining.AddressBookSystem
                 person.ZipCode = int.Parse(Console.ReadLine());
 
                 contact[contactCount++] = person;
-                Console.WriteLine("--------New Contact Added Successfully---------");
+                Console.WriteLine("\n--------New Contact Added Successfully---------");
             }
         }
         //this method is to edit the contact details---------------------------------------------------------------------------------------------------------
