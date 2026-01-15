@@ -16,7 +16,8 @@ namespace BridgeLabzTraining.AddressBookSystem
             while (!exit)
             {
                 Console.WriteLine("Press 1 to Add Contact");
-                Console.WriteLine("press 2 to exit");
+                Console.WriteLine("press 2 to edit Contact");
+                Console.WriteLine("press 3 to exit");
                 Console.Write("Input Here: ");
                 int choice = int.Parse(Console.ReadLine());
 
@@ -25,9 +26,15 @@ namespace BridgeLabzTraining.AddressBookSystem
                     case 1:
                         utility.AddContact();
                         break;
+                    
                     case 2:
+                        utility.EditContact();
+                        break;
+
+                    case 3:
                         exit = true;
                         break;
+
                     default:
                         Console.WriteLine("Invalid Input");
                         break;
