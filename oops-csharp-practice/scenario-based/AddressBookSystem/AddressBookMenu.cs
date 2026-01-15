@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BridgeLabzTraining.AddressBookSystem
+{
+    internal class AddressBookMenu
+    {
+        AddressBookUtility utility = new AddressBookUtility();
+
+        public void Run()
+        {
+            bool exit = false;
+            while (!exit)
+            {
+                Console.WriteLine("Press 1 to Add Contact");
+                Console.WriteLine("press 2 to exit");
+                Console.Write("Input Here: ");
+                int choice = int.Parse(Console.ReadLine());
+
+                switch (choice)
+                {
+                    case 1:
+                        utility.AddContact();
+                        break;
+                    case 2:
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Input");
+                        break;
+                }
+            }
+        }
+    }
+}
