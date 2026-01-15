@@ -39,24 +39,25 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.WriteLine("--------New Contact Added Successfully---------");
             }
         }
-
+         //this method is to edit the contact details---------------------------------------------------------------------------------------------------------
         public void EditContact()
         {
-            if(contactCount == 0)
+            if(contactCount == 0) //check is their is a contact in contact book or not
             {
                 Console.WriteLine("!!Address book is empty!!");
                 return;
             }
-            Console.WriteLine("---------------Update Details----------------");
+            Console.WriteLine("---------------Update Details Module----------------");
             Console.WriteLine("\nEnter Name of the person whose details you want to edit");
+            //taking input for first and last name
             Console.WriteLine("Enter First Name: ");
             string first = Console.ReadLine();
             Console.WriteLine("Enter Last Name: ");
             string last = Console.ReadLine();
-            int editIndex = -1;
-            for(int i =  0; i < contactCount; i++)
+            int editIndex = -1; //the is use to store the index value of the contact we want to edit
+            for(int i =  0; i < contactCount; i++) //loop run until the number of contacts
             {
-                if(contact[i].FirstName == first && contact[i].LastName == last)
+                if(contact[i].FirstName.ToLower() == first.ToLower() && contact[i].LastName.ToLower() == last.ToLower()) //check for the input name match to other contact
                 {
                     editIndex = i;
                 }
@@ -116,6 +117,70 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.WriteLine("---------Contact Not found-----------");
             }
                 
+        }
+
+        //this method is to delete the contact details--------------------------------------------------------------------------------------------------------
+        public void DeleteContact()
+        {
+            if(contactCount == 0)
+            {
+                Console.WriteLine("Address book is empty");
+                return;
+            }
+            Console.WriteLine("------------Delete Details Module-------------");
+            Console.WriteLine("Enter the Name of the person whose details you want to delete");
+            Console.Write("First Name: ");
+            string first = Console.ReadLine();
+            Console.Write("Last Name :");
+            string last = Console.ReadLine();
+
+            int deleteIndex = -1; //the is use to store the index value of the contact we want to delete
+            for (int i = 0; i < contactCount; i++) //loop run until the number of contacts
+            {
+                if (contact[i].FirstName.ToLower() == first.ToLower() && contact[i].LastName.ToLower() == last.ToLower()) //check for the input name match to other contact
+                {
+                    deleteIndex = i;
+                }
+            }
+            if(deleteIndex == -1)
+            {
+                Console.WriteLine("!!!Contact Not Found!!!");
+                
+                return ;
+            }
+            if (contactCount == 1) {
+                contact[0] = null;
+                contactCount--;
+                Console.WriteLine("-------Contact Delete Successfully-------");
+                return;
+            }
+            for(int i = deleteIndex;i< contactCount-1; i++)
+            {
+                contact[i] = contact[i + 1];
+
+            }
+            contact[contactCount - 1] = null;
+            contactCount--;
+
+            Console.WriteLine("---------Contact Delete Successfully---------");
+
+
+        }
+
+        //method is to display the all contact details--------------------------------------------------------------------------------------------------------
+        public void Display()
+        {
+            if(contactCount == 0)
+            {
+                Console.WriteLine("No Contact found");
+                return;
+            }
+            for(int i = 0;i < contactCount; i++)
+            {
+                Console.WriteLine("-------Contact no " + (i + 1) + "-------");
+                Console.WriteLine(contact[i].ToString());
+                Console.WriteLine("------------------------------------------");
+            }
         }
 
 

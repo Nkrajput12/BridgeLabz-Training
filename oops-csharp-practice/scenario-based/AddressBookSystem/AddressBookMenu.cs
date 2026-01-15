@@ -17,7 +17,9 @@ namespace BridgeLabzTraining.AddressBookSystem
             {
                 Console.WriteLine("Press 1 to Add Contact");
                 Console.WriteLine("press 2 to edit Contact");
-                Console.WriteLine("press 3 to exit");
+                Console.WriteLine("Press 3 to delete Contact");
+                Console.WriteLine("Press 4 to displat all Contact");
+                Console.WriteLine("press 5 to exit");
                 Console.Write("Input Here: ");
                 int choice = int.Parse(Console.ReadLine());
 
@@ -32,6 +34,14 @@ namespace BridgeLabzTraining.AddressBookSystem
                         break;
 
                     case 3:
+                        utility.DeleteContact();
+                        break;
+
+                    case 4:
+                        utility.Display();
+                        break;
+
+                    case 5:
                         exit = true;
                         break;
 
