@@ -8,12 +8,63 @@ namespace BridgeLabzTraining.AddressBookSystem
 {
     internal class AddressBookMenu
     {
-        AddressBookUtility utility = new AddressBookUtility();
-
+        Dictionary<string, AddressBookUtility> addressBook = new Dictionary<string, AddressBookUtility>();
         public void Run()
         {
             bool exit = false;
             while (!exit)
+            {
+                Console.WriteLine("\n===== ADDRESS BOOK SYSTEM =====");
+                Console.WriteLine("1. Add New Address Book");
+                Console.WriteLine("2. Open Existing Address Book");
+                Console.WriteLine("3. Exit");
+                Console.Write("Choice: ");
+                int choice = int.Parse(Console.ReadLine());
+                if (choice == 1)
+                {
+                    Console.WriteLine("Enter unique Address book Name");
+                    string book = Console.ReadLine();
+                    if (!addressBook.ContainsKey(book))
+                    {
+                        addressBook.Add(book, new AddressBookUtility());
+                        Console.WriteLine(book + " added Successfully");
+
+                    }
+                    else Console.WriteLine("book already exist");
+                }
+                else if(choice == 2)
+                {
+                    Console.WriteLine("Enter a name to open book");
+                    string book = Console.ReadLine();
+                    if (addressBook.ContainsKey(book))
+                    {
+                        HandleBook(addressBook[book], book);
+                    }
+                    else
+                    {
+                        Console.WriteLine("!!!Book not found!!!");
+                    }
+                }
+                else if(choice == 3)
+                {
+                    exit = true;
+                    Console.WriteLine("Exit");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Choice");
+                }
+
+
+            }
+        }
+
+
+        public void HandleBook(AddressBookUtility utility,string bookName)
+        {
+            Console.WriteLine("----------------- " + bookName + " Book Open -------------------");
+            bool back = false;
+            while (!back)
             {
                 Console.WriteLine("Press 1 to Add Contact");
                 Console.WriteLine("press 2 to edit Contact");
@@ -28,7 +79,7 @@ namespace BridgeLabzTraining.AddressBookSystem
                     case 1:
                         utility.AddContact();
                         break;
-                    
+
                     case 2:
                         utility.EditContact();
                         break;
@@ -42,7 +93,7 @@ namespace BridgeLabzTraining.AddressBookSystem
                         break;
 
                     case 5:
-                        exit = true;
+                        back = true;
                         break;
 
                     default:

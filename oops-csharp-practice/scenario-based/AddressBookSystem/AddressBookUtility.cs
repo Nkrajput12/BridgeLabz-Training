@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BridgeLabzTraining.AddressBookSystem
 {
-    public class AddressBookUtility : Contacts
+    public class AddressBookUtility : IAddressBook
     {
         Contacts[] contact = new Contacts[50];
         int contactCount = 0;
@@ -39,10 +39,10 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.WriteLine("--------New Contact Added Successfully---------");
             }
         }
-         //this method is to edit the contact details---------------------------------------------------------------------------------------------------------
+        //this method is to edit the contact details---------------------------------------------------------------------------------------------------------
         public void EditContact()
         {
-            if(contactCount == 0) //check is their is a contact in contact book or not
+            if (contactCount == 0) //check is their is a contact in contact book or not
             {
                 Console.WriteLine("!!Address book is empty!!");
                 return;
@@ -55,9 +55,9 @@ namespace BridgeLabzTraining.AddressBookSystem
             Console.WriteLine("Enter Last Name: ");
             string last = Console.ReadLine();
             int editIndex = -1; //the is use to store the index value of the contact we want to edit
-            for(int i =  0; i < contactCount; i++) //loop run until the number of contacts
+            for (int i = 0; i < contactCount; i++) //loop run until the number of contacts
             {
-                if(contact[i].FirstName.ToLower() == first.ToLower() && contact[i].LastName.ToLower() == last.ToLower()) //check for the input name match to other contact
+                if (contact[i].FirstName.ToLower() == first.ToLower() && contact[i].LastName.ToLower() == last.ToLower()) //check for the input name match to other contact
                 {
                     editIndex = i;
                 }
@@ -116,13 +116,13 @@ namespace BridgeLabzTraining.AddressBookSystem
             {
                 Console.WriteLine("---------Contact Not found-----------");
             }
-                
+
         }
 
         //this method is to delete the contact details--------------------------------------------------------------------------------------------------------
         public void DeleteContact()
         {
-            if(contactCount == 0)
+            if (contactCount == 0)
             {
                 Console.WriteLine("Address book is empty");
                 return;
@@ -142,19 +142,20 @@ namespace BridgeLabzTraining.AddressBookSystem
                     deleteIndex = i;
                 }
             }
-            if(deleteIndex == -1)
+            if (deleteIndex == -1)
             {
                 Console.WriteLine("!!!Contact Not Found!!!");
-                
-                return ;
+
+                return;
             }
-            if (contactCount == 1) {
+            if (contactCount == 1)
+            {
                 contact[0] = null;
                 contactCount--;
                 Console.WriteLine("-------Contact Delete Successfully-------");
                 return;
             }
-            for(int i = deleteIndex;i< contactCount-1; i++)
+            for (int i = deleteIndex; i < contactCount - 1; i++)
             {
                 contact[i] = contact[i + 1];
 
@@ -170,12 +171,12 @@ namespace BridgeLabzTraining.AddressBookSystem
         //method is to display the all contact details--------------------------------------------------------------------------------------------------------
         public void Display()
         {
-            if(contactCount == 0)
+            if (contactCount == 0)
             {
                 Console.WriteLine("No Contact found");
                 return;
             }
-            for(int i = 0;i < contactCount; i++)
+            for (int i = 0; i < contactCount; i++)
             {
                 Console.WriteLine("-------Contact no " + (i + 1) + "-------");
                 Console.WriteLine(contact[i].ToString());
