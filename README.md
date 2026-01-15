@@ -283,12 +283,8 @@ revise all previous concepts
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 9 Jan 2025
   🧠 Technical Concepts
-  1. sorting alogoriths
-  2. Bubble Sort
-  3. insertion sort
-  4. Merge sort
-  5. Quick sort
-
+  1. sorting alogorithms
+ 
   💻 C# Problem Solving
   1. 1 Scenario base problem on oops "Fitness Tracker"
   2. 1 Scenario base problem on DSA "ATM Dispenser"
@@ -307,12 +303,7 @@ revise all previous concepts
    Revise Concept of core java and oops
 
    💻 C# Problem Solving
-  1. Bubble sort problem
-  2. Counting sort problem
-  3. Insertion sort problem
-  4. Merge sort problem
-  5. Quick sort problem
-  6. Selection sort problem
+  1. sorting problems
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 12 Jan 2025
@@ -320,9 +311,8 @@ revise all previous concepts
  1. StringBuilder
  2. StringBuffer
  3. FileReader
- 4. InputStreamReader
- 5. Linear Search 
- 6. Binary Search
+ 4. Linear Search 
+ 5. Binary Search
    
   💻 C# Problem Solving
     3 Scenario base problem
@@ -338,8 +328,16 @@ revise all previous concepts
 3. Time Complexity Analysis
 4. Space Complexity Analysis
 5. Best, Worst, and Average Case Complexities
-6. Practical Guidelines for Optimizing C# Code
+
 
 💻 C# Problem Solving
 1. 2 Scenario base problems
 2. problem base on linear search binary search and String builder
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 14 Jan 2025
+  🧠 Technical Concepts
+  1. revise oops
+
+  💻 C# Problem Solving
+  1. Address book problem(countinue) UC1 - UC5
