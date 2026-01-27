@@ -17,7 +17,8 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.WriteLine("\n===== ADDRESS BOOK SYSTEM =====");
                 Console.WriteLine("1. Add New Address Book");
                 Console.WriteLine("2. Open Existing Address Book");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Global Search by City/State");
+                Console.WriteLine("4. Exit");
                 Console.Write("Choice: ");
                 int choice = int.Parse(Console.ReadLine());
                 if (choice == 1)
@@ -47,6 +48,10 @@ namespace BridgeLabzTraining.AddressBookSystem
                 }
                 else if(choice == 3)
                 {
+                    GlobalSearchByLocation();
+                }
+                else if(choice == 4)
+                {
                     exit = true;
                     Console.WriteLine("Exit");
                 }
@@ -56,6 +61,41 @@ namespace BridgeLabzTraining.AddressBookSystem
                 }
 
 
+            }
+        }
+
+        
+        private void GlobalSearchByLocation()
+        {
+            Console.WriteLine("\n--- Global Search ---");
+            Console.WriteLine("Search by: 1. City | 2. State");
+            string choice = Console.ReadLine();
+            bool isCity = (choice == "1");
+
+            Console.Write($"Enter {(isCity ? "City" : "State")} Name: ");
+            string searchTarget = Console.ReadLine();
+
+            bool anyResultsFound = false;
+
+            // Iterate through all Address Books in the Dictionary
+            foreach (var entry in addressBook)
+            {
+                string bookName = entry.Key;
+                AddressBookUtility utility = entry.Value;
+
+                // Print header for the book being searched
+                Console.WriteLine($"\nLooking in Address Book: {bookName}...");
+
+                // The utility handles the internal array loop
+                bool found = utility.SearchAndDisplayByLocation(searchTarget, isCity);
+
+                if (found) anyResultsFound = true;
+                else Console.WriteLine("(No matches in this book)");
+            }
+
+            if (!anyResultsFound)
+            {
+                Console.WriteLine($"\nResult: No persons found in '{searchTarget}' across the entire system.");
             }
         }
 
