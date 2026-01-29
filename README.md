@@ -376,7 +376,86 @@ revise all previous concepts
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📅 Date: 21 Jan 2025
+  🧠 Technical Concepts
+1. I/O Streams
+2. Types of Streams
+1. File Streams
+2. Object Streams
+3. ByteArray Streams
+4. Buffered Streams
+5. Reader and Write
+   
   💻 C# Problem Solving
   1. 18 problems on Collection
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 22 Jan 2025
+  🧠 Technical Concepts
+1. Exceptions 
+2. Types of Exceptions
+3. Handling Exceptions 
+4. Creating Custom Exceptions
+
+  💻 C# Problem Solving
+  1. scenario base problem(Ambulance Route).
+  2. problems on Streams
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 23 Jan 2025
+  🧠 Technical Concepts
+1. Regex 
+2. Methods:
+   1. find()
+   2. matches()
+   3. replaceAll()
+3. Introduction to NUnit Framework
+
+  💻 C# Problem Solving
+  1. Problems on collections.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 24 Jan 2025
+1. Introduction to Reflection
+
+  💻 C# Problem Solving
+1. solved problems on generics.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📅 Date: 24 Jan 2025
+  🧠 Technical Concepts
+1. Revision of Sorting algo
+  1. Merge sort
+  2. Quick sort
+  3. Selection sort
+  4. Bubble sort
+  5. Insertion sort
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 27 Jan 2025
+  🧠 Technical Concepts
+1. Common Patterns:
+  1. Email Validation
+  2. Password Strength
+  3. Phone Number Format 
+2. C# Regex API 
+  1. Pattern
+  2. Matcher
+
+💻 C# Problem Solving
+1. Solve problems on Regex.
+
+*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 28 Jan 2025
+  🧠 Technical Concepts
+  1. Revision of DSA(LinkList, Stack and Queue).
+
+💻 C# Problem Solving
+1. Problem based on DSA and sorting(Practice).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+
+
+
