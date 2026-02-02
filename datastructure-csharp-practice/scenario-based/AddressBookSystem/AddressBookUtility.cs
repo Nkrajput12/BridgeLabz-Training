@@ -52,6 +52,8 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.Write("Enter Zip Code: ");
                 person.ZipCode = int.Parse(Console.ReadLine());
 
+                AddressBookMenu.MapPersonToLocation(person);
+
                 contact[contactCount++] = person; //save the object to the array
                 Console.WriteLine("\n--------New Contact Added Successfully---------");
             }
@@ -204,7 +206,7 @@ namespace BridgeLabzTraining.AddressBookSystem
             }
         }
 
-        // Inside AddressBookUtility.cs
+        //Method to search and display contacts by City or State across all address books---------------------------------------------------------------------------------
         public bool SearchAndDisplayByLocation(string location, bool isCity)
         {
             bool foundInThisBook = false;

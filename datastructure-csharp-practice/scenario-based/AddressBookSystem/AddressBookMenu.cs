@@ -8,7 +8,21 @@ namespace BridgeLabzTraining.AddressBookSystem
 {
     internal class AddressBookMenu
     {
-        Dictionary<string, AddressBookUtility> addressBook = new Dictionary<string, AddressBookUtility>();
+        public static Dictionary<string, List<Contacts>> cityMap = new Dictionary<string, List<Contacts>>();
+        public static Dictionary<string, List<Contacts>> stateMap = new Dictionary<string, List<Contacts>>();
+
+        private Dictionary<string, AddressBookUtility> addressBook = new Dictionary<string, AddressBookUtility>();
+
+        public static void MapPersonToLocation(Contacts person)
+        {
+            // Map City
+            if (!cityMap.ContainsKey(person.City)) cityMap[person.City] = new List<Contacts>();
+            cityMap[person.City].Add(person);
+
+            // Map State
+            if (!stateMap.ContainsKey(person.State)) stateMap[person.State] = new List<Contacts>();
+            stateMap[person.State].Add(person);
+        }
         public void Run()
         {
             bool exit = false;
@@ -18,7 +32,8 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.WriteLine("1. Add New Address Book");
                 Console.WriteLine("2. Open Existing Address Book");
                 Console.WriteLine("3. Global Search by City/State");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Get Count by city/state");
+                Console.WriteLine("5. Exit");
                 Console.Write("Choice: ");
                 int choice = int.Parse(Console.ReadLine());
                 if (choice == 1)
@@ -48,9 +63,13 @@ namespace BridgeLabzTraining.AddressBookSystem
                 }
                 else if(choice == 3)
                 {
-                    GlobalSearchByLocation();
+                    ViewByLocation();
                 }
                 else if(choice == 4)
+                {
+                    GetCountByLocation();
+                }
+                else if (choice == 5)
                 {
                     exit = true;
                     Console.WriteLine("Exit");
@@ -63,40 +82,44 @@ namespace BridgeLabzTraining.AddressBookSystem
 
             }
         }
-
-        
-        private void GlobalSearchByLocation()
+        //---------------(This method is use to count the number of contact at location)-------------------
+        private void GetCountByLocation()
         {
-            Console.WriteLine("\n--- Global Search ---");
-            Console.WriteLine("Search by: 1. City | 2. State");
+            Console.WriteLine("\n--- Count Persons by Location ---");
+            Console.WriteLine("1. Count by City | 2. Count by State");
             string choice = Console.ReadLine();
-            bool isCity = (choice == "1");
 
-            Console.Write($"Enter {(isCity ? "City" : "State")} Name: ");
-            string searchTarget = Console.ReadLine();
+            Console.Write("Enter Location Name: ");
+            string locationName = Console.ReadLine();
 
-            bool anyResultsFound = false;
+            // Select the appropriate map based on user choice
+            var targetMap = (choice == "1") ? cityMap : stateMap;
 
-            // Iterate through all Address Books in the Dictionary
-            foreach (var entry in addressBook)
+            if (targetMap.ContainsKey(locationName))
             {
-                string bookName = entry.Key;
-                AddressBookUtility utility = entry.Value;
-
-                // Print header for the book being searched
-                Console.WriteLine($"\nLooking in Address Book: {bookName}...");
-
-                // The utility handles the internal array loop
-                bool found = utility.SearchAndDisplayByLocation(searchTarget, isCity);
-
-                if (found) anyResultsFound = true;
-                else Console.WriteLine("(No matches in this book)");
+                // UC 10: Using the Count property of the Collection List
+                int count = targetMap[locationName].Count;
+                Console.WriteLine($"\nTotal number of persons in '{locationName}': {count}");
             }
-
-            if (!anyResultsFound)
+            else
             {
-                Console.WriteLine($"\nResult: No persons found in '{searchTarget}' across the entire system.");
+                Console.WriteLine($"\nTotal number of persons in '{locationName}': 0");
             }
+        }
+        private void ViewByLocation()
+        {
+            Console.WriteLine("1. City | 2. State");
+            string type = Console.ReadLine();
+            Console.Write("Enter Location Name: ");
+            string loc = Console.ReadLine();
+
+            var map = (type == "1") ? cityMap : stateMap;
+
+            if (map.ContainsKey(loc))
+            {
+                foreach (var p in map[loc]) Console.WriteLine($"- {p.FirstName} {p.LastName}");
+            }
+            else Console.WriteLine("No one found here.");
         }
 
 
@@ -109,7 +132,7 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.WriteLine("Press 1 to Add Contact");
                 Console.WriteLine("press 2 to edit Contact");
                 Console.WriteLine("Press 3 to delete Contact");
-                Console.WriteLine("Press 4 to displat all Contact");
+                Console.WriteLine("Press 4 to display all Contact");
                 Console.WriteLine("press 5 to exit");
                 Console.Write("Input Here: ");
                 int choice = int.Parse(Console.ReadLine());
