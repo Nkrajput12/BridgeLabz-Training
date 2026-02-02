@@ -52,7 +52,8 @@ namespace BridgeLabzTraining.AddressBookSystem
                 Console.Write("Enter Zip Code: ");
                 person.ZipCode = int.Parse(Console.ReadLine());
 
-                AddressBookMenu.MapPersonToLocation(person);
+                AddressBookManager manager = new AddressBookManager();
+                manager.MapPersonToLocation(person);
 
                 contact[contactCount++] = person; //save the object to the array
                 Console.WriteLine("\n--------New Contact Added Successfully---------");
