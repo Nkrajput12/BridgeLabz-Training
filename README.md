@@ -184,7 +184,7 @@ revise all previous concepts
 5. probliem on Math operation 
    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 1 Jan 2025
+📅 Date: 1 Jan 2026
 🧠 Technical Concepts
 1. Classes vs. Objects in C#
 2. Class Diagram
@@ -196,7 +196,7 @@ revise all previous concepts
 2. Cafeteria Menu problem  //both question using oops question
    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 2 Jan 2025
+📅 Date: 2 Jan 2026
 🧠 Technical Concepts
 1. Inheritance
 2. Single Level Inheritance
@@ -212,7 +212,7 @@ revise all previous concepts
 1. Distance Tracker using oops concept
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 3 Jan 2025
+📅 Date: 3 Jan 2026
    🧠 Technical Concepts
    1. Inheritance
    2. abstraction 
@@ -224,7 +224,7 @@ revise all previous concepts
    Lucky Draw
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 4 Jan 2025 (Sunday)
+📅 Date: 4 Jan 2026 (Sunday)
    🧠 Technical Concepts
    1. Revise all the topics of oops 
 
@@ -234,7 +234,7 @@ revise all previous concepts
    3. oops diagram
    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 5 Jan 2025 (taking leave due to cold and fever)
+📅 Date: 5 Jan 2026 (taking leave due to cold and fever)
     🧠 Technical Concepts
    1. Encapsulation
    2.  Polymorphism 
@@ -245,7 +245,7 @@ revise all previous concepts
     N/A
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 6 Jan 2025
+📅 Date: 6 Jan 2026
     
   1. Revise all the oops pillers
   2. learn about base , virtual and override keyword
@@ -258,7 +258,7 @@ revise all previous concepts
    3. call log manager
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 7 Jan 2025
+📅 Date: 7 Jan 2026
   🧠 Technical Concepts
   1. Single Linked List
   2. Double Linked List
@@ -270,7 +270,7 @@ revise all previous concepts
   3. Ecommerce platform 
    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 8 Jan 2025
+📅 Date: 8 Jan 2026
   🧠 Technical Concepts
   1. Stack
   2. Queue
@@ -281,7 +281,7 @@ revise all previous concepts
   2. 4 problem based on Linked list
    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 9 Jan 2025
+📅 Date: 9 Jan 2026
   🧠 Technical Concepts
   1. sorting alogorithms
  
@@ -291,14 +291,14 @@ revise all previous concepts
   3. Solve 8 problems based Stack,Queue and HashMap
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 10 Jan 2025
+📅 Date: 10 Jan 2026
   🧠 Technical Concepts
   Revise the concepts of oops
 
   💻 C# Problem Solving
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 11 Jan 2025
+📅 Date: 11 Jan 2026
   🧠 Technical Concepts
    Revise Concept of core java and oops
 
@@ -306,7 +306,7 @@ revise all previous concepts
   1. sorting problems
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 12 Jan 2025
+📅 Date: 12 Jan 2026
   🧠 Technical Concepts
  1. StringBuilder
  2. StringBuffer
@@ -321,7 +321,7 @@ revise all previous concepts
   3. Loan Approval Automation
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 13 Jan 2025
+📅 Date: 13 Jan 2026
   🧠 Technical Concepts
 1. What is Runtime Analysis?
 2. Understanding Big-O Notation
@@ -335,7 +335,7 @@ revise all previous concepts
 2. problem base on linear search binary search and String builder
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 14 Jan 2025
+📅 Date: 14 Jan 2026
   🧠 Technical Concepts
   1. revise oops
 
@@ -343,13 +343,13 @@ revise all previous concepts
   1. Address book problem(countinue) UC1 - UC5
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 15 Jan 2025
+📅 Date: 15 Jan 2026
    💻 C# Problem Solving
    1. Address book problem (UC-6 AND UC-7)
    
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 16 Jan 2025
+📅 Date: 16 Jan 2026
  🧠 Technical Concepts
   1. revise oop
   2. DSA basics
@@ -357,25 +357,25 @@ revise all previous concepts
   1. Scenario based problem(Browser Buddy)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 17 Jan 2025
+📅 Date: 17 Jan 2026
   🧠 Technical Concepts
   1. Sorting algorithms
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 19 Jan 2025
+📅 Date: 19 Jan 2026
    🧠 Technical Concepts
   1. Introduction to Generics in C#
   2. Generic Classes
   3. Generic Methods
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 20 Jan 2025
+📅 Date: 20 Jan 2026
    🧠 Technical Concepts
   1. Overview of Collections Framework
   2. What is the Collections Framework?
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 21 Jan 2025
+📅 Date: 21 Jan 2026
   🧠 Technical Concepts
 1. I/O Streams
 2. Types of Streams
@@ -389,7 +389,7 @@ revise all previous concepts
   1. 18 problems on Collection
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 22 Jan 2025
+📅 Date: 22 Jan 2026
   🧠 Technical Concepts
 1. Exceptions 
 2. Types of Exceptions
@@ -401,7 +401,7 @@ revise all previous concepts
   2. problems on Streams
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 23 Jan 2025
+📅 Date: 23 Jan 2026
   🧠 Technical Concepts
 1. Regex 
 2. Methods:
@@ -415,7 +415,7 @@ revise all previous concepts
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📅 Date: 24 Jan 2025
+📅 Date: 24 Jan 2026
 1. Introduction to Reflection
 
   💻 C# Problem Solving
@@ -423,7 +423,7 @@ revise all previous concepts
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📅 Date: 24 Jan 2025
+📅 Date: 24 Jan 2026
   🧠 Technical Concepts
 1. Revision of Sorting algo
   1. Merge sort
@@ -433,7 +433,7 @@ revise all previous concepts
   5. Insertion sort
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 27 Jan 2025
+📅 Date: 27 Jan 2026
   🧠 Technical Concepts
 1. Common Patterns:
   1. Email Validation
@@ -446,8 +446,8 @@ revise all previous concepts
 💻 C# Problem Solving
 1. Solve problems on Regex.
 
-*------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📅 Date: 28 Jan 2025
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 28 Jan 2026
   🧠 Technical Concepts
   1. Revision of DSA(LinkList, Stack and Queue).
 
@@ -455,7 +455,46 @@ revise all previous concepts
 1. Problem based on DSA and sorting(Practice).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
+📅 Date: 29 Jan 2026
+  🧠 Technical Concepts
+1. Introduction to JSON
+2. Reading JSON Data
+3. Writing JSON Data
+4. Parsing JSON Data
+5. JSON Schema Validation
+
+  💻 C# Problem Solving
+1. scenario based problem named stream buzz
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 2 Feb 2026
+  🧠 Technical Concepts
+1. Annotations
+2. Reflection
+
+
+  💻 C# Problem Solving
+1. Scenario based problem (Lexical Twist)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 3 Feb 2026
+  🧠 Technical Concepts
+1. Design principal
+2. Design pattern
+
+💻 C# Problem Solving
+1. Scenario based problem (Flip key)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 4 Feb 2026
+  🧠 Technical Concepts
+1. MultiThereding(Countinue)
+
+💻 C# Problem Solving
+1. Scenario based problem (Factory Robot Hazard analyzer)
+
+
+
 
 
 
