@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
+using System.ClientModel.Primitives;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 
 namespace BridgeLabzTraining.AddressBookSystem
 {
@@ -10,7 +13,49 @@ namespace BridgeLabzTraining.AddressBookSystem
         private List<Contacts> contactList = new List<Contacts>();
         string txtfilepath = @"F:\BridgeLabzTraining\BridgeLabzTraining\AddressBookSystem\Contacts.txt";
         string csvfilepath = @"F:\BridgeLabzTraining\BridgeLabzTraining\AddressBookSystem\Contacts.csv";
+        string jsonfilepath = @"F:\BridgeLabzTraining\BridgeLabzTraining\AddressBookSystem\Contacts.json";
 
+        //Method to write to json ------------------------------UC15--------------------------------------------
+        public void WriteToJSON()
+        {
+            try
+            {
+
+                string jsonString = JsonConvert.SerializeObject(contactList, Formatting.Indented);
+
+
+                File.WriteAllText(jsonfilepath, jsonString);
+                Console.WriteLine($"JSON Exported successfully ");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error writing JSON: " + ex.Message);
+            }
+        }
+
+        //Method to ReadFromJson --------------------------------UC15-------------------------------------------------
+        public void ReadFromJSON()
+        {
+            try
+            {
+                if (!File.Exists(jsonfilepath))
+                {
+                    Console.WriteLine("JSON file not found.");
+                    return;
+                }
+
+                string jsoninput = File.ReadAllText(jsonfilepath);
+
+                contactList = JsonConvert.DeserializeObject<List<Contacts>>(jsonfilepath);
+
+                Console.WriteLine("json added successfully");
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error reading JSON: " + ex.Message);
+            }
+        }
 
         //Method to Write the contacts to csv----------------------------UC14-------------------------------------------
 

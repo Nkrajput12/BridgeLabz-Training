@@ -58,7 +58,7 @@ namespace BridgeLabzTraining.AddressBookSystem
             {
                 Console.WriteLine("\n--- BOOK OPERATIONS ---");
                 Console.WriteLine("1. Add | 2. Edit | 3. Delete | 4. Display | 5. Sort(Name)  |6. Sort(Location) |7. SaveToFile");
-                Console.WriteLine("8. Load From File | 9. Save to CSV | 10. Load from CSV | 11. Exit ");
+                Console.WriteLine("8. Load From File | 9. Save to CSV | 10. Load from CSV | 11. Save to json | 12. Read from json | 13. Exit ");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
@@ -73,7 +73,9 @@ namespace BridgeLabzTraining.AddressBookSystem
                     case 8: utility.ReadFromFile(); break;
                     case 9: utility.WriteToCsv(); break;
                     case 10: utility.ReadFromCsv(); break;
-                    case 11: back = true; break;
+                    case 11: utility.ReadFromJSON(); break;
+                    case 12: utility.WriteToJSON(); break;
+                    case 13: back = true; break;
                 }
             }
         }
