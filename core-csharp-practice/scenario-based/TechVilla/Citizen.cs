@@ -4,14 +4,17 @@ public class Citizen
 {
     public int id;
     public string Name;
+
+    public string Email;
     public int Age;
     public double Income;
     public int ResidencyYears;
 
-    public Citizen(int id,string name,int age,double income,int years)
+    public Citizen(int id,string name,string email,int age,double income,int years)
     {
         this.id = id;
         this.Name = name;
+        this.Email = email;
         this.Age = age;
         this.Income = income;
         this.ResidencyYears = years;
