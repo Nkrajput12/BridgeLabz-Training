@@ -26,6 +26,24 @@ public class Citizen
         return Income < 30000;
     }
 
+    public string GetServicePackage()
+    {
+        double score = GetServiceEligibilityScore();
+        int tier;
+        
+        if(score > 500) tier =4;
+        else if(score > 300) tier = 3;
+        else if(score > 100) tier = 2;
+        else tier = 1;
+
+        switch(tier)
+        {
+            case 4: return "Platinum";
+            case 3: return "Gold";
+            case 2: return "Silver";
+            default: return "Basic";
+        }
+    }
     public void Display()
     {
         Console.WriteLine("---Citizen Profile---");
@@ -35,6 +53,7 @@ public class Citizen
         Console.WriteLine("Residency Years = "+ResidencyYears);
         Console.WriteLine("Eligibility Score = "+GetServiceEligibilityScore());
         Console.WriteLine($"Subsidy = {(ValidForSubsidy()? "Eligible" : "Not Eligible" )}");
+        Console.WriteLine("Service Package = "+GetServicePackage());
                 
 
     }
