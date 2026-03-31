@@ -493,8 +493,146 @@ revise all previous concepts
 💻 C# Problem Solving
 1. Scenario based problem (Factory Robot Hazard analyzer)
 
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 5 Feb 2026
+🧠 Technical Concepts
 
+Introduction to SQL Server
 
+Relational Database Management System (RDBMS) concepts.
+
+Basic SQL Syntax: SELECT, INSERT, UPDATE, DELETE.
+
+Constraints: Primary Key, Foreign Key, Unique, and Check.
+
+💻 C# Problem Solving
+
+Problem: Write a script to create a Students table and a Courses table with a many-to-one relationship.
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 6 Feb 2026
+🧠 Technical Concepts
+
+Advanced SQL
+
+Joins: Inner, Left, Right, and Full Outer Joins.
+
+Aggregations: GROUP BY, HAVING, SUM, AVG, COUNT.
+
+Subqueries vs. Joins.
+
+💻 C# Problem Solving
+
+Problem: Find the top 3 customers who have placed the highest total order value using a single SQL query.
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 7 Feb 2026
+🧠 Technical Concepts
+
+Stored Procedures & Functions
+
+Benefits of Stored Procedures (Security, Performance).
+
+Input and Output parameters.
+
+Views and Indexes (Clustered vs. Non-Clustered).
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 9 Feb 2026
+🧠 Technical Concepts
+
+ADO.NET Architecture
+
+Connected vs. Disconnected Architecture.
+
+Core Objects: SqlConnection, SqlCommand, SqlDataReader.
+
+Managing Connection Strings in appsettings.json.
+
+💻 C# Problem Solving
+
+Scenario-based problem (Data Porter): Create a console app that connects to a local SQL database and fetches record details using a SqlDataReader.
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 10 Feb 2026
+🧠 Technical Concepts
+
+ADO.NET Disconnected Layer
+
+SqlDataAdapter and DataSet.
+
+Working with DataTable and DataView.
+
+Filling a DataSet from multiple tables.
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 11 Feb 2026
+🧠 Technical Concepts
+
+Security & Transactions
+
+SQL Injection: How to prevent it using Parameterized Queries.
+
+SqlTransaction: Handling Commit and Rollback.
+
+ExecuteScalar vs. ExecuteNonQuery vs. ExecuteReader.
+
+💻 C# Problem Solving
+
+Scenario-based problem (Bank Vault): Implement a transfer method between two accounts that rolls back the entire transaction if any one update fails.
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 12 Feb 2026
+🧠 Technical Concepts
+
+Deep Dive: SOLID Principles
+
+S: Single Responsibility.
+
+O: Open/Closed Principle.
+
+L: Liskov Substitution.
+
+I: Interface Segregation.
+
+D: Dependency Inversion.
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 13 Feb 2026
+🧠 Technical Concepts
+
+Creational & Structural Design Patterns
+
+Singleton Pattern (Thread-safe implementation).
+
+Factory Method Pattern.
+
+Repository Pattern (Commonly used with ADO.NET).
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 14 Feb 2026
+🧠 Technical Concepts
+
+Unit Testing with NUnit and Moq
+
+Mocking the Data Access Layer (DAL).
+
+Writing Testable Code (Dependency Injection).
+
+Assertions and Test Runners.
+
+------------------------------------------------------------------------------------------------------------------------------
+📅 Date: 15 Feb 2026
+🧠 Technical Concepts
+
+Comprehensive Revision
+
+Recap of Multithreading, ADO.NET, and SQL.
+
+Self-Assessment on OOP principles.
+
+💻 C# Problem Solving
+
+Scenario-based problem (Inventory Master): Create a small system using the Repository Pattern to Add, Update, and Delete inventory items in a SQL database, ensuring all inputs are validated via Regex.
 
 
 
