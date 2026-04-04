@@ -1,0 +1,14 @@
+F:\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net10.0\EmployeeWage.exe
+F:\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net10.0\EmployeeWage.deps.json
+F:\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net10.0\EmployeeWage.runtimeconfig.json
+F:\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net10.0\EmployeeWage.dll
+F:\EmployeeWage\EmployeeWage\EmployeeWage\bin\Debug\net10.0\EmployeeWage.pdb
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.GeneratedMSBuildEditorConfig.editorconfig
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.AssemblyInfoInputs.cache
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.AssemblyInfo.cs
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.csproj.CoreCompileInputs.cache
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.dll
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\refint\EmployeeWage.dll
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.pdb
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\EmployeeWage.genruntimeconfig.cache
+F:\EmployeeWage\EmployeeWage\EmployeeWage\obj\Debug\net10.0\ref\EmployeeWage.dll
