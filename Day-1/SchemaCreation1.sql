@@ -1,6 +1,7 @@
 Use HealthClinic;
 Go
 
+
 CREATE TABLE Patient (
     PatientID INT IDENTITY(1,1) PRIMARY KEY,
     FirstName VARCHAR(50) NOT NULL,
@@ -23,10 +24,17 @@ Go
 
 CREATE TABLE Appointment (
     AppointmentID INT IDENTITY(1,1) PRIMARY KEY,
-    PatientID INT NOT NULL REFERENCES Patient(PatientID),
-    DoctorID INT NOT NULL REFERENCES Doctor(DoctorID),
+    PatientID INT NOT NULL,
+    DoctorID INT NOT NULL,
     AppointmentDate DATE NOT NULL,
     TimeSlot TIME NOT NULL,
-    Status VARCHAR(20) DEFAULT 'Scheduled'
+    Status VARCHAR(20) DEFAULT 'Scheduled',
+    
+    CONSTRAINT FK_Appointment_Patient FOREIGN KEY (PatientID) 
+        REFERENCES Patient(PatientID) 
+        ON DELETE CASCADE,
+        
+    CONSTRAINT FK_Appointment_Doctor FOREIGN KEY (DoctorID) 
+        REFERENCES Doctor(DoctorID) 
+        ON DELETE CASCADE
 );
-Go
