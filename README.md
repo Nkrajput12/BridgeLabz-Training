@@ -32,4 +32,27 @@
 3. **Normalization Audit:** Verified `patient_phones` against 1NF, 2NF, and 3NF with written justifications for each step.
 4. **Covering Index Optimization:** Created a covering index for `doctor_id`, `appointment_date`, and `status`, verifying index usage (`Using index` in `Extra`) via `EXPLAIN`.
 
-📁 **Files:** [`/Day-2`](./Day-2) directory (`Day2_Queries_and_EXPLAIN.sql`, Schema Updates, Normalization Notes).
+
+# Day 3 | DB Programming – Joins, Stored Procedures & Triggers
+
+## 📌 Progress Overview
+
+
+* **Day 3** **Topic:** SQL Joins, Stored Procedures & Database Triggers | **Status:** ✅ Done
+
+---
+
+### 💡 Topics Covered
+
+* **SQL Joins:** Inner Join, Left Join, Right Join, and Full Outer Join.
+* **Stored Procedures:** Creating and executing parameterized stored procedures for database operations.
+* **Database Triggers:** Understanding DML triggers (`INSERT`, `UPDATE`, `DELETE`) and their role in automating database actions.
+* **Audit Logging:** Tracking data modifications using audit tables and triggers.
+
+### 🛠️ Tasks Completed
+
+1. **Joins Practice:** Implemented Joins queries on the Health Clinic database.
+2. **Stored Procedures:** Created stored procedures for managing `Patients`, `Doctors`, `Appointments`, `Billing`, and `VisitHistory` records.
+3. **Audit Log:** Designed and created an `AuditLog` table to record changes made to critical tables.
+4. **Triggers:** Implemented `INSERT`, `UPDATE`, and `DELETE` triggers for the `Patients`, `Doctors`, and `Appointments` tables to automatically log changes into the `AuditLog` table.
+
