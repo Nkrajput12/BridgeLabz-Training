@@ -14,22 +14,20 @@ namespace HealthClinic.Services
 
             using (SqlConnection connection = new SqlConnection(conn))
             {
-                SqlCommand cmd = new SqlCommand(query, connection);
-                connection.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
 
-                using (SqlDataReader reader = cmd.ExecuteReader())
+                if (dataTable.Rows.Count == 0)
                 {
-                    if (!reader.HasRows)
-                    {
-                        Console.WriteLine("\nNo audit logs found.");
-                        return;
-                    }
+                    Console.WriteLine("\nNo audit logs found.");
+                    return;
+                }
 
-                    Console.WriteLine("\n--- Audit Logs ---");
-                    while (reader.Read())
-                    {
-                        Console.WriteLine($"Audit ID: {reader["AuditID"]}\nTable: {reader["TableName"]}\nAction: {reader["ActionType"]}\nRecord ID: {reader["RecordID"]}\nPerformed By: {reader["PerformedBy"]}\nDate: {Convert.ToDateTime(reader["PerformedAt"]):yyyy-MM-dd HH:mm:ss}\nDetails: {reader["Details"]}\n----------------------------------------");
-                    }
+                Console.WriteLine("\n--- Audit Logs ---");
+                foreach (DataRow row in dataTable.Rows)
+                {
+                    Console.WriteLine($"Audit ID: {row["AuditID"]}\nTable: {row["TableName"]}\nAction: {row["ActionType"]}\nRecord ID: {row["RecordID"]}\nPerformed By: {row["PerformedBy"]}\nDate: {Convert.ToDateTime(row["PerformedAt"]):yyyy-MM-dd HH:mm:ss}\nDetails: {row["Details"]}\n----------------------------------------");
                 }
             }
         }

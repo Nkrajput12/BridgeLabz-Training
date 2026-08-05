@@ -11,23 +11,24 @@ namespace HealthClinic.Services
     {
         public void RegisterPatient()
         {
-            Patient patient = new Patient();
             string phoneNumber;
 
             Console.Write("Enter First Name: ");
-            patient.FirstName = Console.ReadLine() ?? string.Empty;
+            string firstName = Console.ReadLine() ?? string.Empty;
 
             Console.Write("Enter Last Name: ");
-            patient.LastName = Console.ReadLine() ?? string.Empty;
+            string lastName = Console.ReadLine() ?? string.Empty;
 
             Console.Write("Enter Date of Birth (YYYY-MM-DD): ");
-            patient.DateOfBirth = DateTime.Parse(Console.ReadLine() ?? DateTime.Now.ToString("yyyy-MM-dd"));
+            DateTime dateOfBirth = DateTime.Parse(Console.ReadLine() ?? DateTime.Now.ToString("yyyy-MM-dd"));
 
             Console.Write("Enter Gender (M/F/O): ");
-            patient.Gender = char.Parse(Console.ReadLine() ?? "M");
+            char gender = char.Parse(Console.ReadLine() ?? "M");
 
             Console.Write("Enter Address: ");
-            patient.Address = Console.ReadLine() ?? string.Empty;
+            string address = Console.ReadLine() ?? string.Empty;
+
+            Patient patient = new Patient(0, firstName, lastName, dateOfBirth, gender, address);
 
             Console.Write("Enter Phone Number: ");
             phoneNumber = Console.ReadLine() ?? string.Empty;

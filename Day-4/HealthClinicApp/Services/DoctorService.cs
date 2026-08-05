@@ -10,25 +10,25 @@ namespace HealthClinic.Services
     {
         public void AddDoctor()
         {
-            Doctor doctor = new Doctor();
-
             Console.Write("Enter First Name: ");
-            doctor.FirstName = Console.ReadLine() ?? string.Empty;
+            string firstName = Console.ReadLine() ?? string.Empty;
 
             Console.Write("Enter Last Name: ");
-            doctor.LastName = Console.ReadLine() ?? string.Empty;
+            string lastName = Console.ReadLine() ?? string.Empty;
 
             Console.Write("Enter Specialization: ");
-            doctor.Specialization = Console.ReadLine() ?? string.Empty;
+            string specialization = Console.ReadLine() ?? string.Empty;
 
             Console.Write("Enter Phone: ");
-            doctor.Phone = Console.ReadLine() ?? string.Empty;
+            string phone = Console.ReadLine() ?? string.Empty;
 
             Console.Write("Enter Consultation Fee: ");
-            doctor.ConsultationFee = decimal.Parse(Console.ReadLine() ?? "500");
+            decimal consultationFee = decimal.Parse(Console.ReadLine() ?? "500");
 
             Console.Write("Enter Room ID: ");
-            doctor.RoomId = int.Parse(Console.ReadLine() ?? "0");
+            int roomId = int.Parse(Console.ReadLine() ?? "0");
+
+            Doctor doctor = new Doctor(0, firstName, lastName, specialization, phone, roomId, consultationFee);
 
             string str = DbConnection.GetDbConnection();
 

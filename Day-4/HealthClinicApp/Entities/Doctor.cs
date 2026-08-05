@@ -10,5 +10,20 @@ namespace HealthClinic.Entities
         public string Phone { get; set; } = string.Empty;
         public int RoomId { get; set; }
         public decimal ConsultationFee { get; set; }
+
+        public Doctor()
+        {
+        }
+
+        public Doctor(int doctorId, string firstName, string lastName, string specialization, string phone, int roomId, decimal consultationFee)
+        {
+            DoctorID = doctorId;
+            FirstName = firstName;
+            LastName = lastName;
+            Specialization = specialization;
+            Phone = phone;
+            RoomId = roomId;
+            ConsultationFee = consultationFee;
+        }
     }
 }

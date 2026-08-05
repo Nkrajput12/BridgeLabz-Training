@@ -10,23 +10,23 @@ namespace HealthClinic.Services
     {
         public void BookAppointment()
         {
-            Appointment appointment = new Appointment();
-
             Console.Write("Enter Patient ID: ");
-            appointment.PatientId = int.Parse(Console.ReadLine() ?? "0");
+            int patientId = int.Parse(Console.ReadLine() ?? "0");
 
             Console.Write("Enter Doctor ID: ");
-            appointment.DoctorId = int.Parse(Console.ReadLine() ?? "0");
+            int doctorId = int.Parse(Console.ReadLine() ?? "0");
 
             Console.Write("Enter Appointment Date (YYYY-MM-DD): ");
-            appointment.AppointmentDate = DateTime.Parse(Console.ReadLine() ?? DateTime.Now.ToString("yyyy-MM-dd"));
+            DateTime appointmentDate = DateTime.Parse(Console.ReadLine() ?? DateTime.Now.ToString("yyyy-MM-dd"));
 
             Console.Write("Enter Time Slot (HH:MM:SS): ");
-            appointment.TimeSlot = TimeSpan.Parse(Console.ReadLine() ?? "09:00:00");
+            TimeSpan timeSlot = TimeSpan.Parse(Console.ReadLine() ?? "09:00:00");
 
             Console.Write("Enter Status (press Enter for default 'Scheduled'): ");
             string statusInput = Console.ReadLine() ?? string.Empty;
-            appointment.Status = string.IsNullOrWhiteSpace(statusInput) ? "Scheduled" : statusInput;
+            string status = string.IsNullOrWhiteSpace(statusInput) ? "Scheduled" : statusInput;
+
+            Appointment appointment = new Appointment(0, patientId, doctorId, appointmentDate, timeSlot, status);
 
             string str = DbConnection.GetDbConnection();
 
