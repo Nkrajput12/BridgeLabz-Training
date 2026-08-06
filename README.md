@@ -56,3 +56,47 @@
 3. **Audit Log:** Designed and created an `AuditLog` table to record changes made to critical tables.
 4. **Triggers:** Implemented `INSERT`, `UPDATE`, and `DELETE` triggers for the `Patients`, `Doctors`, and `Appointments` tables to automatically log changes into the `AuditLog` table.
 
+# Day 4 | ADO.NET & Health Clinic App Completion
+
+## 📌 Progress Overview
+
+* **Day 4** **Topic:** ADO.NET & Health Clinic App Completion | **Status:** ✅ Done
+
+---
+
+### 💡 Topics Covered
+
+* **ADO.NET Basics:** Connected and Disconnected Architecture.
+* **SQL Server Connectivity:** Connecting a .NET application with MS SQL Server using ADO.NET.
+* **CRUD Operations:** Performing Create, Read, Update, and Delete operations using `SqlConnection`, `SqlCommand`, `SqlDataReader`, and `SqlDataAdapter`.
+* **Database Integration:** Integrating the finalized Health Clinic database with the console application.
+
+### 🛠️ Tasks Completed
+
+1. **Database Connectivity:** Connected the Health Clinic console application to MS SQL Server using ADO.NET.
+2. **CRUD Implementation:** Implemented CRUD operations for Patients, Doctors, Appointments, Billing, and Visit History.
+3. **ER Diagram Integration:** Mapped the finalized database schema with the application.
+
+# Day 5 | Backend Basics – ASP.NET Core, WebAPI & RESTful Services
+
+## 📌 Progress Overview
+
+* **Day 5** **Topic:** ASP.NET Core, WebAPI & RESTful Services | **Status:** ✅ Done
+
+---
+
+### 💡 Topics Covered
+
+* **ASP.NET Core:** Introduction to the ASP.NET Core framework and its architecture.
+* **Web API:** Understanding Web APIs and how they enable communication between client and server.
+* **RESTful Services:** REST principles, HTTP methods (GET, POST, PUT, DELETE), status codes, and API design.
+* **Project Structure:** Overview of an ASP.NET Core Web API project, controllers, routing, and middleware.
+
+### 🛠️ Tasks Completed
+
+1. **Environment Setup:** Configured the ASP.NET Core development environment.
+2. **Web API Project:** Scaffolded a basic ASP.NET Core Web API project.
+3. **Controllers:** Created sample API controllers with RESTful endpoints.
+4. **CRUD Endpoints:** Implemented basic CRUD operations using in-memory data.
+
+
