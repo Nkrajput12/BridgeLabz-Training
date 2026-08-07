@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreetingApp</title>
+    <link rel="stylesheet" href="/css/greeting.css" />
+</head>
+<body>
+    <div class="greeting-container">
+        <h2>Welcome to Greeting App</h2>
+        
+        <form onsubmit="submitMyForm(event)">
+            <label for="Name">Enter your name:</label><br />
+            <input type="text" id="Name" name="Name" required placeholder="Enter your Name" />
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="/js/greeting.js"></script>
+</body>
+</html>
