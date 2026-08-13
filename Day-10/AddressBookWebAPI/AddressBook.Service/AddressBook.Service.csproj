@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AddressBookWeb.Service</RootNamespace>
+    <AssemblyName>AddressBookWeb.Service</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AddressBook.Models\AddressBook.Models.csproj" />
+    <ProjectReference Include="..\AddressBook.Repository\AddressBook.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
