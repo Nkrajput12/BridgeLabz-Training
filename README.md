@@ -100,3 +100,79 @@
 4. **CRUD Endpoints:** Implemented basic CRUD operations using in-memory data.
 
 
+# Day 6 | MVC Pattern & REST Request Handling
+
+### 💡 Topics Covered
+
+* MVC architecture: Model, View, and Controller.
+* HTTP requests, responses, controllers, and routing.
+* Basics of ASP.NET Core MVC.
+
+### 🛠️ Tasks Completed
+
+* Created a **Greeting App** using ASP.NET Core MVC.
+* Implemented basic controllers, views, and routing.
+
+---
+
+# Day 7 | Minimal APIs
+
+### 💡 Topics Covered
+
+* Minimal APIs in ASP.NET Core.
+* RESTful endpoints and HTTP methods.
+* Request and response handling.
+
+### 🛠️ Tasks Completed
+
+* Created a **Contacts App backend** using Minimal APIs.
+* Implemented basic CRUD endpoints.
+
+---
+
+# Day 8 | Swagger & API Testing
+
+### 💡 Topics Covered
+
+* Swagger / OpenAPI documentation.
+* API endpoint testing and response handling.
+* Introduction to distributed architecture.
+
+### 🛠️ Tasks Completed
+
+* Integrated **Swagger** into the Contacts App.
+* Tested and documented API endpoints using Swagger UI.
+
+---
+
+# Day 9 | Entity Framework Core
+
+### 💡 Topics Covered
+
+* ORM and Entity Framework Core.
+* Entities, `DbContext`, and database operations.
+* Dependency Injection in ASP.NET Core.
+
+### 🛠️ Tasks Completed
+
+* Converted the **Contacts App** to use Entity Framework Core.
+* Implemented database-based CRUD operations.
+
+---
+
+# Day 10 | Entity Framework & N-Tier Architecture
+
+### 💡 Topics Covered
+
+* LINQ to Entities.
+* Entity Framework Core with REST APIs.
+* N-Tier / layered architecture.
+
+### 🛠️ Tasks Completed
+
+* Created **AddressBookWebApp** using Entity Framework Core.
+* Implemented the application using **N-Tier Architecture**.
+* Used LINQ for database querying and CRUD operations.
+
+
+
