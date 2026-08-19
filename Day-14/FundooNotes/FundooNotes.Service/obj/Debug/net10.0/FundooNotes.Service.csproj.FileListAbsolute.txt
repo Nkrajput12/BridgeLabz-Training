@@ -1,0 +1,17 @@
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Service.deps.json
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Service.dll
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Service.pdb
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Models.dll
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Repository.dll
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Models.pdb
+F:\New Training\FundooNotes\FundooNotes.Service\bin\Debug\net10.0\FundooNotes.Repository.pdb
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.csproj.AssemblyReference.cache
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.AssemblyInfoInputs.cache
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.AssemblyInfo.cs
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.csproj.CoreCompileInputs.cache
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNo.1FE9400C.Up2Date
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.dll
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\refint\FundooNotes.Service.dll
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\FundooNotes.Service.pdb
+F:\New Training\FundooNotes\FundooNotes.Service\obj\Debug\net10.0\ref\FundooNotes.Service.dll
