@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FundooNotes.Models.Entities
 {
@@ -9,18 +8,17 @@ namespace FundooNotes.Models.Entities
         [Key]
         public long NoteId { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        public string Title { get; set; } = string.Empty;
+        [Required, MaxLength(100)]
+        public string Title { get; set; }
 
         [MaxLength(500)]
-        public string Description { get; set; } = string.Empty;
+        public string Description { get; set; }
 
         [MaxLength(20)]
-        public string Backgroundcolor { get; set; } = string.Empty;
+        public string Backgroundcolor { get; set; }
 
         [MaxLength(200)]
-        public string Image { get; set; } = string.Empty;
+        public string Image { get; set; }
 
         public bool Pin { get; set; }
         public bool Archive { get; set; }
@@ -30,7 +28,6 @@ namespace FundooNotes.Models.Entities
         public DateTime Edited { get; set; }
 
         // links note to the user who owns it
-        [ForeignKey("User")]
         public int UserId { get; set; }
     }
 }

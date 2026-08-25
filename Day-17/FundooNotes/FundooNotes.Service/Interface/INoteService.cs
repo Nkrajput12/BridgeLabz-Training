@@ -8,7 +8,6 @@ namespace FundooNotes.Service.Interface
     {
         Task<NotesEntity> CreateNoteAsync(CreateNoteDto noteDto, int userId);
         Task<IEnumerable<NotesEntity>> GetAllNotesAsync(int userId);
-        Task<IEnumerable<NotesEntity>> GetRecentNotesAsync(int userId);
         Task<bool> DeleteNoteAsync(long noteId, int userId);
         Task<bool> PinNoteAsync(long noteId, int userId);
         Task<bool> ArchiveNoteAsync(long noteId, int userId);
