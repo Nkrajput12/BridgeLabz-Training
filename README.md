@@ -172,7 +172,135 @@
 
 * Created **AddressBookWebApp** using Entity Framework Core.
 * Implemented the application using **N-Tier Architecture**.
-* Used LINQ for database querying and CRUD operations.
+* Used LINQ for database querying and CRUD operations
+* 
+* 
+# Day 11 | Entity Framework – Migrations & DbContext
 
+### 💡 Topics Covered
+
+* EF Core Migrations and database schema evolution.
+* `DbContext` configuration and lifecycle.
+* Database-first/code-first workflow with Entity Framework.
+
+### 🛠️ Tasks Completed
+
+* Used **EF Core Migrations** for database schema management.
+* Configured `DbContext` for the Address Book applications.
+* Completed backend database integration using EF Core.
+
+---
+
+# Day 12 | Advanced Backend Development – WebAPI REST Verbs & HttpClient
+
+### 💡 Topics Covered
+
+* REST verbs: GET, POST, PUT, PATCH, and DELETE.
+* Action methods in ASP.NET Core Controllers.
+
+### 🛠️ Tasks Completed
+
+* Started the **Fundoo Notes App** backend.
+* Implemented the **User Management Module**.
+* Added user registration and login
+
+---
+
+# Day 13 | Advanced Backend Development – DI, Routing, Reverse Proxy & CORS
+
+### 💡 Topics Covered
+
+* Dependency Injection in ASP.NET Core.
+* Routing configuration and Reverse Proxy concepts.
+* CORS (Cross-Origin Resource Sharing).
+
+### 🛠️ Tasks Completed
+
+* Implemented the foundation of **Authentication & Authorization** in the Fundoo Notes App.
+* Configured dependency injection and routing.
+* Worked with CORS for API access.
+
+---
+
+# Day 14 | Advanced Backend Development – JWT Authentication & Authorization
+
+### 💡 Topics Covered
+
+* JWT-based authentication.
+* Authentication vs. Authorization.
+* Request/Response handling.
+
+### 🛠️ Tasks Completed
+
+* Completed **Authentication & Authorization** for the Fundoo Notes App.
+* Implemented JWT-based user authentication.
+* Added the **Notes Management Module** with create,update,get and delete operations.
+
+---
+
+# Day 15 | Advanced Backend Development – EF Core, CQRS & LINQ
+
+### 💡 Topics Covered
+
+* Advanced Entity Framework Core patterns..
+* Advanced LINQ queries.
+
+### 🛠️ Tasks Completed
+
+* Implemented **Pin, Archive, and Trash** functionality in Fundoo Notes.
+* Added **Search and Filter** functionality.
+* Used LINQ for advanced data querying.
+
+---
+
+# Day 16 | Advanced Backend Development – Pub/Sub, Testing, Logging & API Docs
+
+### 💡 Topics Covered
+
+* Publish-Subscribe pattern for event-driven communication.
+* Unit testing using MSTest.
+* Logging with NLog.
+* API testing with Postman and documentation with Swagger.
+
+### 🛠️ Tasks Completed
+
+* Added **Tags / Labels Management** to Fundoo Notes.
+* Created unit tests using **MSTest**.
+* Added API documentation using **Swagger**.
+* Implemented logging for backend operations.
+
+---
+
+# Day 17 | Advanced Backend Development – Identity, Filters & Session Management
+
+### 💡 Topics Covered
+
+* Web API filters.
+* StyleCop for code quality and consistency.
+* Session management.
+* Asynchronous processing using RabbitMQ.
+
+### 🛠️ Tasks Completed
+
+* Implemented the **Reminder & Notification Module** in Fundoo Notes.
+* Used **RabbitMQ** for asynchronous background processing.
+
+
+---
+
+# Day 18 | Advanced Backend Development – REST API Security & Caching
+
+### 💡 Topics Covered
+
+* REST API security principles.
+* Encryption, decryption, and hashing.
+* Redis caching.
+* Token caching and performance optimization.
+
+### 🛠️ Tasks Completed
+
+* Implemented **caching using Redis**.
+* Improved API performance using caching.
+* Consolidated and completed the **Fundoo Notes App backend**.
 
 
