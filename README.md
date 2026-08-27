@@ -302,5 +302,36 @@
 * Implemented **caching using Redis**.
 * Improved API performance using caching.
 * Consolidated and completed the **Fundoo Notes App backend**.
+  
+# Day 19 | Microservices – Monolith vs Microservices & .NET Microservices Fundamentals
+
+### 💡 Topics Covered
+
+* Monolithic vs. Microservices architecture and their trade-offs.
+* .NET Microservices structure and service-to-service communication.
+* Basics of designing independent microservices.
+
+### 🛠️ Tasks Completed
+
+* Started decomposing the **Fundoo Notes App** into microservices.
+* Created separate **User Management** service.
+* Explored communication between microservices.
+
+---
+
+# Day 20 | Microservices – Architecture & Cloud-Native .NET Apps
+
+### 💡 Topics Covered
+
+* Microservices architecture patterns.
+* Cloud-native .NET application concepts.
+* Deployment and scalability considerations for microservices.
+
+### 🛠️ Tasks Completed
+
+* Completed the **Fundoo Notes microservices**.
+* Implemented separate services for **User Management(Authentication & Authorization) Notes Management( Search & Filter), Tags / Labels (Reminder & Notification)**.
+* Integrated communication between the services.
+* Completed the final demo of the **microservices-based Fundoo Notes application**.
 
 
